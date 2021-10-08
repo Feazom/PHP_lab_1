@@ -1,0 +1,12 @@
+{
+  "name": "urfu/bayastanov",
+  "type": "project",
+  "description": "labWork",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+
+}
