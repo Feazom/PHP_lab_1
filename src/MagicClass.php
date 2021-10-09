@@ -55,16 +55,16 @@ class MagicClass
         print("__wakeup\n");
     }
 
-//    public function __serialize()
-//    {
-//        print("__serialize\n");
-//        return [];
-//    }
+    public function __serialize()
+    {
+        print("__serialize\n");
+        return [];
+    }
 
-//    public function __unserialize(array $data)
-//    {
-//        print("__unserialize\n");
-//    }
+    public function __unserialize(array $data)
+    {
+        print("__unserialize\n");
+    }
 
     public function __toString()
     {

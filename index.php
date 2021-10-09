@@ -3,20 +3,20 @@
 namespace App;
 require 'vendor/autoload.php';
 
-//$object = new MagicClass();
-//$object->method();
-//MagicClass::staticMethod();
-//$a = $object->variable;
-//$object->variable = 12;
-//isset($object->variable);
-//unset($object->variable);
-//$str = serialize($object);
-//$object2 = unserialize($str);
-//strval($object);
-//$object(12);
-//var_export($object);
-//$object3 = clone $object;
-//var_dump($object);
+$object = new MagicClass();
+$object->method();
+MagicClass::staticMethod();
+$a = $object->variable;
+$object->variable = 12;
+isset($object->variable);
+unset($object->variable);
+$str = serialize($object);
+$object2 = unserialize($str);
+strval($object);
+$object(12);
+var_export($object);
+$object3 = clone $object;
+var_dump($object);
 
 $T1 = new Point(4, 12);
 $V1 = new Vector(4, 8);
